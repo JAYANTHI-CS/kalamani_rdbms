@@ -6,7 +6,13 @@
 
 -- Task 1
 -- Create Library table
-
+CREATE TABLE Library (
+    BookID INTEGER PRIMARY KEY,
+    BookTitle TEXT,
+    Author TEXT,
+    Category TEXT,
+    Price REAL
+);
 -- Columns
 -- BookID INTEGER PRIMARY KEY
 -- BookTitle TEXT
